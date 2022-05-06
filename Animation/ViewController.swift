@@ -23,7 +23,7 @@ class ViewController: UIViewController {
 //       }
         
         UIView.animate(withDuration: 1.0) {
-            self.imageView.transform = CGAffineTransform(translationX: 20, y: -100)
+            self.imageView.transform = CGAffineTransform(translationX: 30, y: -100)
         } completion: { _ in
             
         }
@@ -32,5 +32,5 @@ class ViewController: UIViewController {
     }
 
 
-}
+
 
